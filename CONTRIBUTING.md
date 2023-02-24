@@ -132,13 +132,61 @@ Please be sure to take a careful look at our [Code of Conduct](https://github.co
 
 ## How to get started with the project in IntelliJ IDEA
 
-### Step 1: Fork the Project.
+### Step 1: Fork the Project
 - On GitHub.com, navigate to the [OWASP/wrongsecrets](https://github.com/OWASP/wrongsecrets) repository. 
 
 - In the top-right corner of the page, click Fork.
  ![fork_button.png](images%2Ffork_button.png)
-- Select owner as your username for the forked repository. A forked copy of that Git repository will be added to your personal GitHub.
+- Select owner as yourself and click on the Create fork button. A forked copy of that Git repository will be added to your personal GitHub.
+![CreateFork.png](images%2FCreateFork.png)
 
+### Step 2: Clone the Project
 
+- On GitHub.com, navigate to your fork of the[OWASP/wrongsecrets](https://github.com/OWASP/wrongsecrets). Above the list of files, click Dwonload Code option and copy the HTTPS (You can choose other options too) URL for the repository.
+- Open Terminal. Type git clone, and then paste the URL you copied earlier.
+- Press Enter. Your local clone will be created.
+ ```bash
+$ git clone https://github.com/YOUR-USERNAME/Spoon-Knife
+> Cloning into `Spoon-Knife`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remote: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+ ```
 
+### Step 3: Open the Project using IntelliJ IDEA
+- Start Intellij Idea. 
+- Go to File option in top left corner and Click on open. 
+- ![open-button.png](images%2Fopen-button.png)
+- Navigate to the cloned project directory and import (e.g. import as mvn project / local sources).
+![wrongsecrets-directory.png](images%2Fwrongsecrets-directory.png)
 
+ ### Step 4: Setup
+- Open Settings from the file menu or simply  by pressing ***Ctrl+Alt+S***
+
+- Follow the path ***IDE settings>Language & Frameworks > Lombok*** and then click on ***Lombok.***
+- Make sure that the ***Lombok processing*** is enabled.
+
+### Step 5: Reload the project
+- Open the ***Maven*** Tab
+- Press the ***Reload*** button as shown below and allow the project to Reload.
+
+### Step 6: Running the Project
+- Open the ***WrongSecretsApplication*** by following the path ***src>main>java>org.owasp.wrongsecrets>WrongSecretApplication***.
+![WrongSecret-app.png](images%2FWrongSecret-app.png)
+- Press ***Shift+F10*** to run the application, this will open up the ***Run/Debug Configurations Menu.***
+
+### Step 7: Setting up Configurations.
+-  Select ***Edit configuration templates*** then select ***Application*** section.
+- There under the ***Application*** section click on the button shown below.
+- ***Select*** all the fields that are Selected in the below picture.
+-  ***Fill*** all the fields as shown below.
+- Again press ***Shift+F10*** which runs the Application.
+
+### There you have it, ***WrongSecrets*** running successfully.
+- Here is a *preview* on how does it look after successfully running the Application.
+  **Note:** 
+- Running the Application doesn't open any kind of ***GUI***, it only initializes the ***local webserver*** that you can open via a ***browser.***
+### Since, now you have a running application, you can try adding [*New challenges.*](https://github.com/OWASP/wrongsecrets#how-to-add-a-challenge)
+
+---
