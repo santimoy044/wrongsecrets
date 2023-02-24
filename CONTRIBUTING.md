@@ -96,3 +96,49 @@ Although we greatly appreciate any and all contributions to the project, there a
 -   Unnecessary self-promotion of tools or blog posts is frowned upon. If you have a relation with on of the URLs or tools you are referencing, please state so in the PR so that we can verify that the reference is in line with the rest of the guide.
 
 Please be sure to take a careful look at our [Code of Conduct](https://github.com/OWASP/wrongsecrets/blob/master/CODE_OF_CONDUCT.md) for all the details.
+
+## Beginner Guide
+
+### OWASP WrongSecrets
+
+[*WrongSecrets*](https://owasp.org/www-project-wrongsecrets/) is an application that provides users with challenges to learn how to properly manage and secure their secrets. By completing these challenges, users can self-reflect and correct any mistakes they may have made in a constructive and effective manner.
+
+
+## Prerequisites
+
+1. **Docker**
+   [*Docker*](https://www.docker.com/) is a platform for creating and running applications in isolated environments called "containers". Containers are portable and can run on any machine that supports Docker, making it easy to deploy applications across different environments. Docker simplifies application deployment and management by providing a consistent environment for development, testing, and production.
+
+
+
+
+2. **Node.Js**
+   [*Node.Js*](https://nodejs.org/en/) is a JavaScript runtime that allows developers to run JavaScript code outside of a web browser. It's fast, efficient, and provides built-in modules and tools for building scalable web applications and services. Node.js is often used for back-end development and is well-suited for handling large numbers of concurrent requests.
+
+
+3. **JDK-19**
+   [*JDK*](https://www.oracle.com/java/technologies/javase/jdk19-archive-downloads.html) (Java Development Kit) is a software development kit that provides developers with tools for building, testing, and deploying Java applications. It includes a Java runtime environment (JRE), a Java compiler, and other development tools such as a debugger, documentation generator, and application server. JDK is used for developing Java applications for a variety of platforms, including desktop, web, and mobile.
+
+
+3. **IntelliJ IDEA**
+   [*IntelliJ IDEA*](https://www.jetbrains.com/idea/download/#section=windows) is a popular integrated development environment (IDE) for Java and other programming languages. It provides developers with a range of features and tools for developing and debugging applications, including code completion, refactoring, version control integration, and support for various build systems. IntelliJ IDEA also offers a user-friendly interface and customizable settings, making it easy to use and adapt to individual workflows. It's widely used by developers for creating a variety of applications, from desktop and web to mobile and enterprise.
+
+
+4. **GitHub Desktop**
+   [*GitHub Desktop*](https://desktop.github.com/) is a graphical user interface (GUI) for GitHub, a web-based hosting service for version control using git. It allows developers to manage their code repositories and collaborate with other developers from a desktop application. GitHub Desktop provides an intuitive interface for tasks such as creating, cloning, and committing to repositories, as well as visual tools for reviewing and merging code changes. It's widely used by developers for managing their code and collaborating on projects hosted on GitHub.
+   
+    *While it's not compulsory, it's advisable for beginners*
+
+
+## How to get started with the project in IntelliJ IDEA
+
+### Step 1: Fork the Project.
+- On GitHub.com, navigate to the [OWASP/wrongsecrets](https://github.com/OWASP/wrongsecrets) repository. 
+
+- In the top-right corner of the page, click Fork.
+ ![fork_button.png](images%2Ffork_button.png)
+- Select owner as your username for the forked repository. A forked copy of that Git repository will be added to your personal GitHub.
+
+
+
+
